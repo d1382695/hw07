@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <!-- 
+        ========================================================================
+        【1. 網頁資訊與文件骨架 (Meta Tags)】
+        ========================================================================
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="由曾千懿撰寫之台中公園深度報導，結合外部 CSS 樣式表排版，呈現市定古蹟湖心亭、景點比較表與地圖導覽。">
+    <meta name="author" content="曾千懿">
+    <meta name="robots" content="index, follow">
+
+    <!-- 
+        ========================================================================
+        【2. Open Graph (OG) 社群分享資訊】
+        ========================================================================
+    -->
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:title" content="百年綠意與文化記憶：台中公園深度導覽報導 | 曾千懿">
+    <meta property="og:description" content="探索台中市歷史最悠久的台中公園，包含古蹟湖心亭、歷史沿革、景點比較表與地圖資訊。">
+    <meta property="og:image" content="images/taichung-park.jpg">
+    <meta property="og:image:alt" content="台中公園日月湖與湖心亭">
+
+    <title>百年綠意與文化記憶：台中公園深度導覽報導</title>
+
+    <!-- 
+        ========================================================================
+        【3. 載入外部 CSS 樣式表 (相對路徑)】
+        - rel="stylesheet" 說明此連結為樣式表。
+        - href="css/hw07.css" 代表從目前 HTML 位置出發，進入 css 資料夾讀取 hw07.css。
+        ========================================================================
+    -->
+    <link rel="stylesheet" href="css/hw07.css">
+</head>
+<body>
+
+    <!-- 語意標籤 1：<header> 頁首區塊 -->
+    <header id="top" class="header-card">
+        <h1>百年綠意與文化記憶：台中公園深度導覽報導</h1>
+
+        <!-- HW06 行內樣式遷移 1：改用 class="reading-focus" -->
+        <p><mark class="reading-focus">重點閱讀：探索台中市心臟地帶的百年都市綠洲與文化古蹟</mark></p>
+
+        <!-- HW06 行內樣式遷移 2：改用 class="report-disclaimer" -->
+        <p class="report-disclaimer">
+            <small>
+                <strong>作者：</strong>曾千懿（學號：D1382695） | 
+                <strong>發布日期：</strong>2026 年 10 月 29 日 | 
+                <strong>更新日期：</strong>2026 年 10 月 29 日
+            </small>
+        </p>
+        <hr>
+    </header>
+
+    <!-- 語意標籤 2：<nav> 頁內導覽目錄區塊 -->
+    <nav class="nav-card">
+        <h2>報導目錄</h2>
+        <ul>
+            <li><a href="#intro">一、 公園簡介與歷史沿革</a></li>
+            <li><a href="#features">二、 特色亮點與推薦路線</a></li>
+            <li><a href="#spots">三、 主要景點比較表</a></li>
+            <li><a href="#media">四、 影音與影像紀錄</a></li>
+            <li><a href="#map">五、 地理位置與交通導覽</a></li>
+            <li><a href="#aside-note">六、 走讀補充提醒 (側欄知識)</a></li>
+            <li><a href="#references">七、 資料來源與參考文獻</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- 語意標籤 3：<main> 主要內容區塊 -->
+    <main>
+
+        <!-- 語意標籤 4：<article> 獨立文章區塊 -->
+        <article>
+
+            <!-- 語意標籤 5：<section> 第一章：公園簡介 -->
+            <section id="intro">
+                <h2>一、 公園簡介與歷史沿革</h2>
+                <p>
+                    <strong>台中公園</strong>位於台中市北區，創立於 1903 年（明治 36 年），是台中市歷史最悠久的都市公園，也是這座都市綠地規劃的重要起點。公園佔地廣闊，內部擁有天然式池塘「日月湖」，周邊圍繞著百年老樹與豐富生態，在繁華鬧區中提供市民一處沉澱心靈的綠洲。
+                </p>
+                <p>
+                    在歷史發展脈絡中，台中公園見證了台中都市計劃的演變。日治時期公園內興建了為慶祝台灣縱貫鐵路全線通車而建的「湖心亭」、神社遺構以及多座古典涼亭。隨著時間推移，公園不僅成為台中市的象徵性地標，湖心亭更於 1999 年被指定為市定古蹟，賦予該區域極高的文化資產價值與歷史意涵。
+                </p>
+                <p>
+                    如今的台中公園兼具歷史底蘊與現代休憩功能。園區內提供湖畔划船體驗、散步步道以及豐富的鳥類與松鼠生態觀察點。每逢節慶燈會或市府大型藝文活動，公園更是吸引大批民眾前往，呈現出古蹟與現代生活共榮的獨特市區風貌。
+                </p>
+
+                <p><a href="#top">↑ 回到頁首</a></p>
+            </section>
+
+            <hr>
+
+            <!-- 語意標籤 5：<section> 第二章：特色與路線 -->
+            <section id="features">
+                <h2>二、 特色亮點與推薦路線</h2>
+
+                <h3>（一） 公園核心特色亮點</h3>
+                <ul>
+                    <li><strong>湖心亭（市定古蹟）：</strong>雙併式尖頂紅瓦白牆的水上涼亭，為台中市最具代表性的標誌建築。</li>
+                    <li><strong>日月湖划船體驗：</strong>結合人工與天然水域，遊客可租用小船於湖面上欣賞四季風景。</li>
+                    <li><strong>望月亭與老樹生態：</strong>保留清領時期臺灣府城城門遺構「望月亭」，周圍有百年大榕樹群與鳥類生態。</li>
+                </ul>
+
+                <h3>（二） 作者推薦走讀散步順序</h3>
+
+                <!-- HW06 行內樣式遷移 3：改用 class="route-note" -->
+                <p class="route-note">
+                    <small>註：以下路線由作者（曾千懿）依據現場造訪經驗獨立規劃，適合初次造訪的遊客。</small>
+                </p>
+
+                <ol>
+                    <li><strong>公園正門入口（公園路）：</strong>自公園路入口進入，欣賞周邊悠久的樹木與歷史入口氣氛。</li>
+                    <li><strong>日月湖與中山橋：</strong>沿著湖畔步道前行，經過紅色古典造型的中山橋，並欣賞湖心亭遠景。</li>
+                    <li><strong>湖心亭參觀：</strong>走上連接橋進入湖心亭內部，近距離觀察木造桁架建築結構與湖面倒影。</li>
+                    <li><strong>望月亭與更樓：</strong>轉往公園高處參觀清代臺灣府城建築遺留之望月亭與傳統木造更樓。</li>
+                    <li><strong>網球場與草坪區：</strong>最後於廣闊綠地與運動區散步放鬆，完成充滿歷史與自然的巡禮。</li>
+                </ol>
+
+                <p><a href="#top">↑ 回到頁首</a></p>
+            </section>
+
+            <hr>
+
+            <!-- 語意標籤 5：<section> 第三章：景點比較表 -->
+            <section id="spots">
+                <h2>三、 主要景點比較表</h2>
+
+                <table>
+                    <caption>台中公園內部重點景點歷史與特色比較</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">景點名稱</th>
+                            <th scope="col">興建 / 建立年份</th>
+                            <th scope="col">建築風格與特色說明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">湖心亭</th>
+                            <td>1908 年（明治 41 年）</td>
+                            <td>日式木造雙併式尖頂涼亭，跨於日月湖上，為慶祝台灣縱貫鐵道全線通車而建，今為市定古蹟。</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">望月亭（北門樓）</th>
+                            <td>1889 年（光緒 15 年）</td>
+                            <td>原為清領時期臺灣府城大東門（聚彰門）之城樓，後遷移至公園內現址，為公園內最古老建築遺跡。</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">中山橋</th>
+                            <td>1908 年（明治 41 年）</td>
+                            <td>日治時期興建的紅漆鐵造橋樑，造型優美古典，橫跨日月湖兩岸，連通湖心亭入口步道。</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p><a href="#top">↑ 回到頁首</a></p>
+            </section>
+
+            <hr>
+
+            <!-- 語意標籤 5 & 7：<section> 與 <figure> 第四章：影音與影像 -->
+            <section id="media">
+                <h2>四、 影音與影像紀錄</h2>
+
+                <h3>（一） 靜態照片展示</h3>
+                <figure>
+                    <img src="images/taichung-park.jpg" alt="台中公園日月湖與市定古蹟湖心亭日景" width="480" height="320">
+                    <figcaption>
+                        圖一：台中公園日月湖與湖心亭景致（照片來源：<a href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">Wikimedia Commons 共享資源</a>）
+                    </figcaption>
+                </figure>
+
+                <h3>（二） 動態影片導覽</h3>
+                <p>透過 YouTube 影片進一步了解台中公園的實際環境與旅遊導覽：</p>
+
+                <p>
+                    若無法於頁面內嵌入播放，可點擊一般 YouTube 連結另開分頁觀看：<br>
+                    <a href="https://www.youtube.com/watch?v=zywCUOaybyc" target="_blank" rel="noopener noreferrer">觀看「台中公園湖心亭景點導覽影片」(YouTube 一般連結)</a>
+                </p>
+
+                <details>
+                    <summary>點擊展開/收合 YouTube iframe 嵌入播放器 (建議於 HTTP 伺服器預覽)</summary>
+                    <br>
+                    <iframe width="480" height="270" src="https://www.youtube.com/embed/zywCUOaybyc" title="台中公園湖心亭景點介紹影片" allowfullscreen></iframe>
+                </details>
+
+                <p><a href="#top">↑ 回到頁首</a></p>
+            </section>
+
+            <hr>
+
+            <!-- 語意標籤 5：<section> 第五章：Google 地圖 -->
+            <section id="map">
+                <h2>五、 地理位置與交通導覽</h2>
+
+                <p><strong>公園地址：</strong>404 台中市北區公園路 37 號</p>
+
+                <iframe width="480" height="350" src="https://maps.google.com/maps?q=24.144818,120.68447&amp;z=16&amp;output=embed" title="台中公園 Google 地圖位置導覽" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <p>
+                    若地圖無法正常載入，可點擊另開線上地圖：<br>
+                    <a href="https://www.google.com/maps?q=24.144818,120.68447" target="_blank" rel="noopener noreferrer">開啟 Google 地圖檢視台中公園位置</a>
+                </p>
+
+                <p><a href="#top">↑ 回到頁首</a></p>
+            </section>
+
+        </article>
+
+        <hr>
+
+        <!-- 語意標籤 6：<aside> 側欄/走讀補充提醒區塊 -->
+        <aside id="aside-note">
+            <h2>六、 走讀補充提醒 (小知識)</h2>
+            <p><strong>松鼠與鳥類餵食提醒：</strong></p>
+            <p>
+                台中公園日月湖周邊與百年榕樹區常見松鼠與鴿子棲息。市府呼籲遊客請勿隨意投餵麵包或零食，以維護自然生態平衡與園區環境衛生。
+            </p>
+            <p><strong>划船安全須知：</strong></p>
+            <p>
+                租用日月湖小船時，請全程穿著救生衣，並注意湖面小船碰撞防護與湖心亭古蹟維護規定。
+            </p>
+
+            <p><a href="#top">↑ 回到頁首</a></p>
+        </aside>
+
+        <hr>
+
+        <!-- 語意標籤 5：<section> 第七章：資料來源 -->
+        <section id="references">
+            <h2>七、 資料來源與參考文獻</h2>
+            <ul>
+                <li>
+                    文字歷史資料參考：
+                    <a href="https://travel.taichung.gov.tw/" target="_blank" rel="noopener noreferrer">台中觀光旅遊網 - 台中公園景點介紹</a>
+                </li>
+                <li>
+                    文化資產資料參考：
+                    <a href="https://nchdb.boch.gov.tw/" target="_blank" rel="noopener noreferrer">國家文化資產網 - 市定古蹟台中公園湖心亭</a>
+                </li>
+                <li>
+                    圖片來源：
+                    <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">Wikimedia Commons 共享資源</a>
+                </li>
+                <li>
+                    影音與地圖來源：
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube 平台</a> 與 
+                    <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Google Maps</a>
+                </li>
+            </ul>
+
+            <p><a href="#top">↑ 回到頁首</a></p>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- 語意標籤 8：<footer> 頁尾區塊 -->
+    <footer>
+        <p>&copy; 2026 曾千懿（學號：D1382695）。本網頁為 HTML5 語意結構與外部 CSS 樣式表 HW07 課程作業，無商業用途。</p>
+        <p><a href="#top">回到頁首（Top）</a></p>
+    </footer>
+
+</body>
+</html>
